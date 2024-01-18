@@ -20,7 +20,8 @@ public class LinearCalculation {
      */
     public static double findCarsDistance(double car1Speed, double car2Speed, double initialDistance, double time) {
         // TODO Place your code here
-        return 0;
+        double distance = (car1Speed + car2Speed) * time + initialDistance;
+        return distance;
     }
 
     public static void main(String[] args) {
